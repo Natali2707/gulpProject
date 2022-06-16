@@ -1,0 +1,42 @@
+.why {
+    padding-top: 50px;
+    padding-bottom: 58px;
+  }
+  
+  .why__card {
+    text-align: center;
+  }
+  .why__card-icon {
+    height: 92px;
+    width: 92px;
+    border: 1px solid rgba(236, 121, 121, 1);
+    border-radius: 100px;
+    margin-bottom: 60px;
+  }
+  
+  @media (max-width: 1200px) {
+    .why__card-icon {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  
+  .why__card-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding: 40px 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .why__card-title {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .why__card-descr {
+      font-size: 14px;
+      padding-bottom: 30px;
+    }
+  }
+  

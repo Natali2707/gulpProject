@@ -1,0 +1,17 @@
+.outline-button {
+    display: flex;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    justify-content: center;
+    font-family: "open sans";
+    font-weight: 600;
+    padding: 20px 0;
+    text-decoration: none;
+    transition: 0.3s;
+  &:hover {
+    color: var(--accentColor);
+    border: 2px solid var(--accentColor);
+  }
+}
+

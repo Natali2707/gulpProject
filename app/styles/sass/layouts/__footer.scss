@@ -1,0 +1,33 @@
+.footer {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__navigator {
+    margin: 0 180px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__item-icon {
+    padding: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer__item-icon:hover {
+    background: var(--accentColor);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(79, 5, 237);
+    transition: 0.3s;
+  }
+  
+  .footer__subtitle {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  

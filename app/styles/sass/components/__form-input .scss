@@ -1,0 +1,13 @@
+.form-input {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #bdbdbd;
+    color: #bdbdbd;
+    font-size: 14px;
+&:hover {
+    color: brown;
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgb(194, 227, 248);
+  }
+}

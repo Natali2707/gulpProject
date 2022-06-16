@@ -1,0 +1,130 @@
+.promo {
+    padding-top: 283px;
+    padding-bottom: 185px;
+    background: url(../images/src/promo/bg.png), url(../images/src/promo/image.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .promo {
+      padding-top: 212px;
+      padding-bottom: 106px;
+    }
+  }
+  @media (max-width: 992px) {
+    .promo {
+      padding-top: 140px;
+      padding-bottom: 50px;
+    }
+  }
+  @media (max-width: 768px) {
+    .promo {
+      padding-top: 20px;
+    }
+  }
+  
+  .promo__info {
+    margin-top: 55px;
+  }
+  .promo__logo{
+    display: flex;
+  }
+  .promo__button {
+    width: 270px;
+    margin-top: 42px;
+  }
+  .promo__head {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+  }
+  
+  .promo__title {
+    font-size: 48px;
+    text-align: left;
+  }
+  
+  @media (max-width: 1200px) {
+    .promo__title {
+      font-size: 36px;
+    }
+  }
+  .promo__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    margin: 60px auto;
+    background-color: currentColor;
+  }
+  
+  .promo__subtitle {
+    color: #fff;
+    margin-bottom: 42px;
+    margin-top: 40px;
+  }
+  
+  .promo__form {
+    position: relative;
+    align-self: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 55px;
+    font-family: "Open Sans";
+    padding: 0 50px;
+  }
+  .promo__form-title {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 0;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  @media (max-width: 1200px) {
+    .promo__form-title {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 768px) {
+    .promo__form-title {
+      font-size: 14px;
+    }
+  } 
+  
+  .promo__form-title span {
+    color: #ec7979;
+  }
+  
+  .promo__form-input {
+    padding: 33px 0 16px 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .promo__form-input:focus {
+    box-shadow: 0 0 20px var(--accentColor);
+  }
+  .promo__form-button {
+    transform: translateX(-51px);
+    padding: 25px 0;
+    width: calc(100% + 102px);
+    border: none;
+    margin: 105px 0 0 0;
+    border-radius: 0 0 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .promo__form-button:hover {
+    color: var(--accentColor);
+    background: #86878b;
+  }
+  
+  
+  /*-------------------- */

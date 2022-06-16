@@ -1,0 +1,30 @@
+.media {
+    background: rgba(248, 239, 239, 1);
+    padding: 18px;
+    margin-bottom: 109px;
+  }
+  
+  .media__title {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32, 68;
+    margin-bottom: 18px;
+  }
+  
+  .media__text {
+    color: var(--subtitleColor);
+  }
+  
+  .media__navigator {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .media__item {
+    flex-direction: row;
+    display: inline-block;
+    margin-right: calc(var(--gutter) * 2);
+  }
