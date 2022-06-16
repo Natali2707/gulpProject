@@ -1,15 +1,40 @@
-.stylish {
-    background:url(../images/dist/promo/bg.png), url(../images/dist/stylish/figma.png);
+// .stylish {
+//     background:url(../images/dist/promo/bg.png), url(../images/dist/stylish/figma.png);
+//     background-size: cover;
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     color: #ffff;
+//     padding-bottom: 50px;
+//   }
+  
+//   .stylish__button {
+//     width: 370px;
+//     margin: 0 auto;
+//   }
+  .stylish {
+    background: url(../images/dist/promo/bg.png),
+      url(../images/src/stylish/figma.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     color: #ffff;
     padding-bottom: 50px;
+    &__button {
+      width: 370px;
+      margin: 0 auto;
+      @media (max-width: 1200px) {
+        width: 318px;
+      }
+      @media (max-width: 768px) {
+      max-width: 287px;
+      }
+      @media (max-width: 560px) {
+      max-width: 260px;
+      }
+      @media (max-width:320px) {
+      width: 250px;
+      }
+    }
   }
-  
-  .stylish__button {
-    width: 370px;
-    margin: 0 auto;
-  }
-  

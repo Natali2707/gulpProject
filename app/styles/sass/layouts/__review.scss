@@ -1,45 +1,93 @@
-.review {
+// .review {
+//     padding-bottom: 64px;
+//   }
+//   .review__card-descr {
+//     padding: 38px 0;
+//     border-radius: 10px;
+//     color: var(--subtitleColor);
+//     position: relative;
+//     background: #e2e2e2;
+//     text-align: center;
+//   }
+//   .review__card-descr::after {
+//     content: "";
+//     position: absolute;
+//     background: #e2e2e2;
+//     left: 25%;
+//     bottom: -11px;
+//     width: 20px;
+//     height: 22px;
+//     z-index: -1;
+//     transform: rotate(45deg);
+//     -webkit-transform: rotate(45deg);
+//   }
+  
+//   .review__author {
+//     margin-top: 66px;
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+//   .review__author-photo {
+//     width: 70px;
+//     height: 70px;
+//     margin-left: 0;
+//   }
+//   .review__author-info {
+//     padding: 10px 0;
+//     margin-left: 30px;
+//   }
+//   .review__author-name {
+//     font-family: "Open Sans";
+//     font-style: 24px;
+//     font-weight: 700;
+//     padding-bottom: 25px;
+//   }
+   
+  .review {
     padding-bottom: 64px;
-  }
-  .review__card-descr {
-    padding: 38px 0;
-    border-radius: 10px;
-    color: var(--subtitleColor);
-    position: relative;
-    background: #e2e2e2;
-    text-align: center;
-  }
-  .review__card-descr::after {
-    content: "";
-    position: absolute;
-    background: #e2e2e2;
-    left: 25%;
-    bottom: -11px;
-    width: 20px;
-    height: 22px;
-    z-index: -1;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
   
-  .review__author {
-    margin-top: 66px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .review__author-photo {
-    width: 70px;
-    height: 70px;
-    margin-left: 0;
-  }
-  .review__author-info {
-    padding: 10px 0;
-    margin-left: 30px;
-  }
-  .review__author-name {
-    font-family: "Open Sans";
-    font-style: 24px;
-    font-weight: 700;
-    padding-bottom: 25px;
-  }
+    &__card-descr {
+      padding: 38px 0;
+      border-radius: 10px;
+      color: var(--subtitleColor);
+      position: relative;
+      background: #e2e2e2;
+      text-align: center;
+      &::after {
+        content: "";
+        position: absolute;
+        background: #e2e2e2;
+        left: 25%;
+        bottom: -11px;
+        width: 20px;
+        height: 22px;
+        z-index: -1;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
+    }
   
+    &__author {
+      margin-top: 66px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    &__author-photo {
+      width: 70px;
+      height: 70px;
+      margin-left: 0;
+    }
+  
+    &__author-info {
+      padding: 10px 0;
+      margin-left: 30px;
+    }
+  
+    &__author-name {
+      font-family: "Open Sans";
+      font-style: 24px;
+      font-weight: 700;
+      padding-bottom: 25px;
+    }
+  }
